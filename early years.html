@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>SHIELD ACADEMY</title>
+     <link rel="icon" type="image/x-icon" href="images/shield.png">
+     <style>
+        body{
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0%;
+          padding: 0%;
+          background: url("images/girl.jpg") no-repeat;
+          background-size: cover;
+          color: black;
+        }
+        header{
+           background: rgb(231, 231, 4);
+           color: black;
+           padding: 10px;
+           min-height: 100% !important;
+           text-align: center;
+           text-size-adjust: 50px;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           background: rgba(red, green, blue, alpha);
+        }
+        header img{
+          height: 50px;
+          margin-bottom: 10px;
+        }
+        header h1{
+          margin: 0;
+        }
+        nav{
+           background-color: black;
+           padding: 10px;
+           width: 100%;
+        }
+        nav ul{
+          list-style: none;
+          list-style-type: none;
+          padding: 0;
+          text-align: center;
+          margin: 0;
+        }
+        nav ul li{
+          display: inline-block;
+          margin: 0 15px;
+          position: relative;
+        }
+        nav ul li a{
+          color: white;
+          text-decoration: none;
+          font-weight: bolder; 
+        }
+        .dropdown-content{
+          display: none;
+          position: absolute;
+          background-color: rgb(255, 255, 255);
+          box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+          z-index: 1;
+          padding: 10px 0;
+          border-radius: 5px;
+        }
+        .dropdown-content a{
+          color: gray;
+          padding: 10px 20px;
+          display: flow-root;
+          text-decoration: none;
+        }
+        .dropdown-content a:hover{
+          background-color: rgb(214, 209, 209);
+        }
+        nav ul li:hover .dropdown-content{
+          display: block;
+        }
+        .dropdown-arrow{
+          margin-left: 5px;
+          font-size: 10px;
+        }
+        main{
+          max-width: 800px;
+          margin: 20px auto;
+          padding: 20px;
+          background: rgb(247, 247, 247);
+          box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+          border-radius: 7px;
+          text-align:center;
+          color: black;
+          font-style: oblique;
+          font-size: 1em;
+        }
+        section{
+          margin-bottom: 20px;
+        }
+        footer{
+          text-align: center;
+          padding: 10px;
+          background: rgba(red, green, blue, alpha);
+          color: wheat;
+          position: relative;
+          bottom: 0;
+          width: 100%;
+        }
+        img{
+          max-width: 100%;
+          height: auto;
+          border-radius: 10px; 
+          display: flex;
+          margin: 10px 0; 
+        }
+        </style>
+   </head>
+     <body>
+         <header>
+          <img src="images/shield.png" style="width: 70px; height:70px;"  alt="image of a shield">
+          <h1 style="font-size: 7;">SHIELD ACADEMY</h1>
+         </header>
+         <nav>
+          <ul>
+
+          
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+
+           
+          </ul>
+         </nav>
+         <main>
+              <section>
+                  <p>
+                    <h2><em>EARLY YEARS</em></h2>
+                 Our Early Years program is designed to foster a love of learning, 
+                 creativity, and exploration. Our curriculum is play-based, 
+                 child-centered, and tailored to meet the unique needs of each child.
+                 <br>
+                 <br>
+                 <b>Learning Areas</b>:
+                    - Language and Literacy<br>
+                    - Mathematics<br>
+                    - Science and Technology<br>
+                    - Social Studies<br>
+                    - Arts and Music<br>
+                    - Physical Education<br>
+                 <br>
+                 <br>
+                 <b>Key Objectives</b>:
+                    - Develop social and emotional skills<br>
+                    - Encourage curiosity, creativity, and critical thinking<br>
+                    - Foster a love of reading, writing, and learning<br>
+                 <br>
+                 <br>
+                 <b>Teaching Approaches</b>:
+                    - Play-Based Learning<br>
+                    - Child-Centered<br>
+                    - Project-Based Learning<br>
+                 <br>
+                 <br>
+                 For more information, please contact our admissions office or visit
+                  our website.
+                  </p>
+              </section>
+              <form>
+                <input type="button" value="Back" onclick="history.go(-1)">
+              </form>
+            </main>
+            <footer>
+              &copy Copyright 2025.ALL RIGHTS RESERVED
+              <br>
+             Designed and Developed by Anning Jeslyne
+            </footer>
+        </body>
+    </html>

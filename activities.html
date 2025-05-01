@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>SHIELD ACADEMY</title>
+     <link rel="icon" type="image/x-icon" href="images/shield.png">
+     <style>
+        body{
+          font-family: Arial, Helvetica, sans-serif;
+          margin: 0%;
+          padding: 0%;
+          background: url("images/girl.jpg") no-repeat;
+          background-size: cover;
+          color: black;
+        }
+        header{
+           background: rgb(231, 231, 4);
+           color: black;
+           padding: 10px;
+           min-height: 100% !important;
+           text-align: center;
+           text-size-adjust: 50px;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           background: rgba(red, green, blue, alpha);
+        }
+        header img{
+          height: 50px;
+          margin-bottom: 10px;
+        }
+        header h1{
+          margin: 0;
+        }
+        nav{
+           background-color: black;
+           padding: 10px;
+           width: 100%;
+        }
+        nav ul{
+          list-style: none;
+          list-style-type: none;
+          padding: 0;
+          text-align: center;
+          margin: 0;
+        }
+        nav ul li{
+          display: inline-block;
+          margin: 0 15px;
+          position: relative;
+        }
+        nav ul li a{
+          color: white;
+          text-decoration: none;
+          font-weight: bolder; 
+        }
+        .dropdown-content{
+          display: none;
+          position: absolute;
+          background-color: rgb(255, 255, 255);
+          box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+          z-index: 1;
+          padding: 10px 0;
+          border-radius: 5px;
+        }
+        .dropdown-content a{
+          color: gray;
+          padding: 10px 20px;
+          display: flow-root;
+          text-decoration: none;
+        }
+        .dropdown-content a:hover{
+          background-color: rgb(214, 209, 209);
+        }
+        nav ul li:hover .dropdown-content{
+          display: block;
+        }
+        .dropdown-arrow{
+          margin-left: 5px;
+          font-size: 10px;
+        }
+        main{
+          max-width: 800px;
+          margin: 20px auto;
+          padding: 20px;
+          background: none;
+          box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+          border-radius: 5px;
+          text-align:center;
+          color: whitesmoke;
+          font-style: italic;
+          font-size: 1.1em;
+        }
+        section{
+          margin-bottom: 20px;
+        }
+        footer{
+          text-align: center;
+          padding: 10px;
+          background: rgba(red, green, blue, alpha);
+          color: wheat;
+          position: relative;
+          bottom: 0;
+          width: 100%;
+        }
+        img{
+          width: 100px;
+          height: 200px;
+          border-radius: 10px; 
+          display: flexbox;
+          margin: 10px 0; 
+        }
+        .column{
+            float: left;
+            width: 33.33%;
+            padding: 5%;
+        }
+        .row::after{
+            content: "";
+            clear:both;
+            display:block;
+        }
+        </style>
+   </head>
+     <body>
+         <header>
+          <img src="images/shield.png" style="width: 70px; height:70px;"  alt="image of a shield">
+          <h1 style="font-size: 7;">SHIELD ACADEMY</h1>
+         </header>
+         <nav>
+          <ul>
+
+          
+            <li>
+                <a href="index.html">HOME</a>
+            </li>
+
+</ul>
+         </nav>
+         <main>
+              <section>
+                     <p>
+                          <em>
+                       Our school offers a wide range of activities to cater to
+                        diverse interests and talents . Whether you are an athlete
+                        , artist or innovator we have something for you that may
+                        spark your interest. Below are a few:
+                    </em><br>
+                       <br>
+                        <h1><b><em>BASKETBALL TRYOUTS</em></b></h1>
+                       Tryouts are open to all students in all grades. This is an opportunity
+                       to develop athletic skills , build teamwork sportsmanship with 
+                       experienced coaches.
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/basketball guy.jpg" style="width: 100%">
+                            </div>
+                            <div class="column">
+                            <img src="images/basketball guy 2.jpg" style="width:90%">
+                            </div>
+                            <div class="column">
+                            <img src="images/basketball girl.jpg" style="width: 90%">
+                            </div>
+                            <div class="column">
+                              <img src="images/basketball5.jpg" style="width:98%">
+                        </div>
+                         </div>     
+                     </p>
+
+
+                     <p>
+                         <h1><b><em>KIDS FUNTIME</em></b></h1>
+                        Get ready for boards and swings as its a fantastic time for little 
+                        kids to stay active and make new friends.
+                        <div class="row">
+                        <div class="column">
+                            <img src="images/kid play 2.jpg" style="width: 80%">
+                        </div>
+                         <div class="column">
+                            <img src="images/kids play4.jpg" style="width:80%">
+                         </div>
+                          <div class="column">
+                            <img src="images/kids board games.jpg" style="width:100%">
+                            </div>
+                            <div class="column">
+                              <img src="images/kids play5.jpg" style="width:100%">
+                        </div>
+                       </div>
+                    </p>
+
+                     <p>
+                        <h1><b><em>DANCE SESSION</em></b></h1>
+                         You move and you groove with wonderful instructors to help
+                         build confidence,express creatively and learn popular dance 
+                         routines.
+                         <div class="row">
+                          <div class="column">
+                            <img src="images/kids dance class.jpg" style="width: 100%">
+                          </div>
+                          <div class="column">
+                            <img src="images/dance class 2.jpg" style="width:100%">
+                            </div>
+                            <div class="column">
+                            <img src="images/dance class 3.jpg" style="width: 100%;">
+                            </div>
+                            <div>
+                              <div class="column">
+                                <img src="images/dance class7.jpg" style="width: 110%;">
+                              </div>
+                    </div>
+                    </p>
+
+                     <p>
+                        <h1><b><em>SCIENCE EXPERIMENTS</em></b></h1>
+                           Curiousity sparked! Explore the wonders of science and get 
+                           hands-on experiences everyday.
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/science lab.jpg" style="width: 110%">
+                           </div>
+                           <div class="column">
+                            <img src="images/science lab 2.jpg" style="width:100%">
+                        </div>
+                          <div class="column">
+                          <img src="images/science kid 3.jpg" style="width: 120%;">
+                          </div>
+                          <div class="column">
+                            <img src="images/science girl8.jpg" style="width: 100%">
+                          </div>
+                        </div>
+                       </p>
+
+                       <p>
+                           <h1><b><em>CHEERLEADING SQUAD</em></b></h1> 
+                             The spirit of sparkle and shine.Whether a seasoned cheerleader
+                              or a newbie ,we welcome you to show your best jumps and 
+                              tumbling passes.
+                        <div class="row">
+                            <div class="column">
+                                 <img src="images/cheerleading girl 2.jpg" style="width:85.8% ">
+                            </div>
+                            <div class="column">
+                                 <img src="images/cheerleading girl 1.jpg" style="width:85%">
+                           </div>
+                          <div class="column">   
+                                 <img src="images/cheerleading kid.jpg" style="width:100%">
+                         </div>
+                          <div class="column">
+                                 <img src="images/cheer group5.jpg" style="width:90%">
+                          </div>
+                       </div>
+                      </p>
+
+                  
+                  <p>
+                    <h1><b><em>BALLET</em></b></h1>
+                  Experience the beauty of ballet! From basic positions to elegant
+                  movements. Join us  to improve your flexibility and build in a 
+                  supportive and encouraging environment.
+                  <div class="row">
+                    <div class="column">
+                        <img src="images/BALLET.jpg" style="width: 115%">
+                    </div>
+                    <div class="column">
+                        <img src="images/BALLET 2.jpg" style="width:100%">
+                    </div>
+                  </div>
+                  </p>
+
+                  
+                  <p>
+                    <h1><b><em>PROM</em></b></h1>
+                      Time to get glamorous!Save up for tickets and have the time of your life
+                      with your special date . Rooting for ya !
+                  <div class="row">
+                    <div class="column">
+                     <img src="images/prom3.jpg" style="width:100%"> 
+                    </div>
+                    <div class="column">
+                     <img src="images/prom 1.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                     <img src="images/prom 2.jpg" style="width:90%">
+                     </div>
+                     <div class="column">
+                      <img src="images/prom8.jpg" style="width:100%">
+                    </div>
+                  </div>
+                  </p>
+              </section>
+                     <form>
+                            <input type="button" value="Back" onclick="history.go(-1)">
+                      </form>
+            </main>
+                      <footer> &copy; Copyright 2025.ALL RIGHTS RESERVED
+                         <br>
+                        Designed and Developed by Anning Jeslyne 
+                      </footer>
+        </body>
+    </html>

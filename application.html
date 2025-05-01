@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ENROLL ONLINE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background:url(images/girl.jpg) no-repeat;
+            background-size: cover;
+            color: black;
+        }
+
+        header{
+           background: rgb(231, 231, 4);
+           color: black;
+           padding: 150px;
+           min-height: 79% !important;
+           text-align: center;
+           text-size-adjust: 250px;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           background: rgba(red, green, blue, alpha);
+           width: 20%;
+           height: 0.001%;
+         }
+         header img{
+          width: 1px;
+          height: 10px;
+          margin-bottom: 5px;
+          flex-direction: column;
+         }
+         header h1{
+          margin: 0;
+         }
+         nav{
+           background-color: black;
+           padding: 10px;
+           width: 1%;
+           height: 123%;
+           -webkit-text-fill-color: #d8e310;
+           text-align:center;
+           font-weight:bolder;
+           font-style: normal;
+           
+         }
+         nav ul{
+          list-style: none;
+          list-style-type: none;
+          padding: 0;
+          text-align: center;
+          margin: 0;
+         }
+         nav ul li{
+          display: inline-block;
+          margin: 0 15px;
+          position: relative;
+         }
+         nav ul li a{
+          color: white;
+          text-decoration: none;
+          font-weight: bolder; 
+          height: 100%;
+         }
+
+        .main {
+            background-color: rgb(246, 246, 214);
+            border-radius: 1px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            padding: 152px;
+            width: 300px;
+        }
+
+        .main h2 {
+            color: #4caf50;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+      
+        select {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+            background-color: #4caf50;
+            color: white;
+            cursor: pointer;
+            width: 100%;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+  <header>
+    <img src="images/shield.png" style="width: 70px; height:70px;"  alt="image of a shield">
+    <h1 style="font-size: 7;">SHIELD ACADEMY</h1>
+    <h5><em>Where excellence begins...</em></h5>
+   </header>
+   <nav>
+    S<br>H<br>I<br>E<br>L<br>D<br>
+    <br>
+    A<br>C<br>A<br>D<br>E<br>M<br>Y<br>
+    <br>
+    S<br>H<br>I<br>E<br>L<br>D<br>
+    <br>
+    A<br>C <br>A<br>D<br>E<br>M<br>Y<br>
+    <br>
+    S <br>H <br>I <br>E <br> L <br>D <br>
+    <br>
+    A <br>C <br>A<br>D<br>E<br>M<br>
+    <br>
+   </nav>
+    <div class="main">
+        <h2>Registration Form</h2>
+        <form action="">
+            <label for="first">First Name:</label>
+            <input type="text" id="first" name="first" required />
+
+            <label for="last">Last Name:</label>
+            <input type="text" id="last" name="last" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="mobile">Contact:</label>
+            <input type="text" id="mobile" name="mobile" maxlength="10" required />
+
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">
+                    Male
+                </option>
+                <option value="female">
+                    Female
+                </option>
+                <option value="other">
+                    Other
+                </option>
+            </select>
+
+            <button type="submit">
+                Submit
+            </button>
+        </form>
+      
+        <form>
+          <input type="button" value="Back" onclick="history.go(-1)">
+        </form>
+      </div>
+             </body>
+</html>
